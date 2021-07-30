@@ -22,9 +22,9 @@ function App() {
     e.preventDefault();
     const birthArray = birthDate.split("-");
     let sumOfBirthDigits = 0;
-    birthArray.map((number) => {
+    birthArray.map((number) => (
       sumOfBirthDigits += getSumOfDigits(number)
-    })
+    ))
 
     if (sumOfBirthDigits % luckyNumber === 0) {
       setOutputMessage([`Woahhh, you are lucky person!!!`, happy])
