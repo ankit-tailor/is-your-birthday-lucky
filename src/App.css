@@ -1,3 +1,107 @@
-.App {
+body {
+  background-color: #e1e1e1;
+}
+
+.main {
+  background-color: #50dbb4;
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.banner_image {
+  margin-top: 2rem;
+}
+
+.privacy__policy {
+  padding: 0.7rem;
+  border: 2px solid white;
+  margin: 1rem 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  text-shadow: 2px 2px 5px white;
   text-align: center;
+}
+
+form {
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+input {
+  display: block;
+  width: 200px;
+  border: none;
+  outline: none;
+  padding: 0.7rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  color: #fff;
+}
+
+button:hover {
+  background-color: #e1e1e1;
+  color: #000;
+}
+
+footer {
+  border: 2px solid #fff;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 1040px) {
+  .banner_image {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .banner_image {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 30%;
+  }
+  input {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  button {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .main {
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+  }
 }
