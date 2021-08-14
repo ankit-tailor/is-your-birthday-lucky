@@ -2,7 +2,7 @@
 
 Project link: https://elastic-visvesvaraya-c0d068.netlify.app/
 
-#About
+# About
 Takes birthday and number as input and tell if you birthday is luck or not.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
